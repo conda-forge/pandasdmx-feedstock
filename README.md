@@ -5,11 +5,13 @@ Home: https://github.com/dr-leo/pandasdmx
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pandasdmx-feedstock/blob/master/LICENSE.txt)
 
 Summary: Statistical Data and Metadata eXchange (SDMX) for the Python data ecosystem
 
+Development: https://github.com/dr-leo/pandasdmx
 
+Documentation: https://pandasdmx.readthedocs.io/
 
 Current build status
 ====================
