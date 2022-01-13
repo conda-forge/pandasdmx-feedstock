@@ -1,5 +1,5 @@
 {% set name = "pandaSDMX" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eee87d14c8e1982455e3e49a9ddc95c75ebf8a6d4ea3653dd000666977b98d22
+  sha256: ffa4459a843943b10e7136a1a45b8dcafaf22985cec1d30253b09eff0fc894ac
 
 build:
   number: 0
