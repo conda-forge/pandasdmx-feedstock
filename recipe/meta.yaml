@@ -25,6 +25,7 @@ requirements:
     - pandas >=1.1
     - pydantic >=1.8.1, <2
     - requests >=2.20
+    - appdirs >= 1.4
 
 test:
   imports:
