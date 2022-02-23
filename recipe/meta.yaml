@@ -1,5 +1,5 @@
 {% set name = "pandaSDMX" %}
-{% set version = "1.8.1" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 121bb551f89732a0f9ec966229e7353db6f64af5fd911035a620139ce5cb0191
+  sha256: 003949fd166bf714e914cfdead899d7792e4c189f06f2437fd51bc496ab73948
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
     - pandas >=1.1
     - pydantic >=1.8.1, <2
     - requests >=2.20
+    - appdirs >= 1.4
 
 test:
   imports:
